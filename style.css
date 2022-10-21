@@ -1,13 +1,40 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 15px; 
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+body{
+    background: #d4e0ee;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.white-container{
+    width: 325px;
+    height: 500px;
+    position: relative;
+    border-radius: 25px;
+    top: 10vh;
+    margin: auto;
+    background: white;
+}
+
+.qr-code{
+    width: 285px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 21px;
+    margin: 25px 30px;
+    color: #212f4d;
+}
+
+p{
+    margin: 0px 39px;
+    color: #878d9b;
+
 }
